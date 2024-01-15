@@ -73,7 +73,6 @@ h2 {
 
 .fixed a {
     text-decoration: none;
-      
 }
 
 .fixed a:visited {
@@ -139,6 +138,7 @@ h4 {
 
 .exp ul, .projet ul {
     margin: 0;
+    margin-top: 1em;
     padding: 0;
     display: flex;
     list-style: none;
@@ -159,9 +159,7 @@ h4 {
 }
 
 .img-projets {
-
     align-self: center;
-   
     height: 115px;
     min-width: 30%;
     aspect-ratio: 1/1;
@@ -177,9 +175,13 @@ h4 {
 }
 
 .projet {
-    
     padding-left: 2em;
-    
+}
+
+#lien {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: aqua;
 }
 
 .experience {
