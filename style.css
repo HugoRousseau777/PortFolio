@@ -165,7 +165,7 @@ h4 {
     height: 115px;
     min-width: 30%;
     aspect-ratio: 1/1;
-    background-image: url("/img/Miniature-site-internet-Ozeobois-Laetitia-Digard-1.png");
+    background-image: url("img/Miniature-site-internet-Ozeobois-Laetitia-Digard-1.png");
     background-origin: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,7 +173,7 @@ h4 {
 }
 
 #projetDeux {
-    background-image: url("/img/telephoneProjet.jpeg");
+    background-image: url("img/telephoneProjet.jpeg");
 }
 
 .projet {
