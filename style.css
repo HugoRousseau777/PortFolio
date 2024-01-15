@@ -1,0 +1,223 @@
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(14, 23, 42);
+    color: rgb(140, 157, 187);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-website {
+    height: 1000px;
+    position: relative;
+}
+
+.fixed {
+    box-sizing:border-box;
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 18%;
+    padding-right: 0%;
+    position: fixed;
+    top: 0px;
+}
+
+h1, h2, h3{
+    
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    color: rgb(96, 115, 141);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 46px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.text-debordment {
+    width: 75%;
+}
+
+.fixed ul {
+    margin-top: 5em;
+    list-style: none;
+    padding-left: 0;
+    font-size: 16px;
+}
+
+.fixed li {
+    margin-bottom: 1.6em;
+    display: flex;
+    align-items: center;
+}
+
+.baton {
+    margin-right: 1.6em;
+    width: 8%;
+    height: 1px;
+    border-top: 1px solid rgb(129, 151, 189);
+}
+
+.fixed a {
+    text-decoration: none;
+      
+}
+
+.fixed a:visited {
+    color: rgb(129, 151, 189);
+}
+.mobile {
+    width: 50%;
+    height: 300%;
+    margin-left: 50%;
+    padding-top: 5%;
+}
+
+#presentation {
+    width: 75%;
+    margin-bottom: 17%;
+    padding-left: 2.4em;
+}
+
+#experiences, #projets {
+    margin-left: 1.2em;
+    margin-top: 10%;
+    width: 75%;
+}
+
+.cont-exp {
+    display: flex;
+
+}
+
+.date-exp {
+    min-width: 30%;
+}
+
+.date-exp p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.exp {
+    padding-left: 2em;
+}
+
+.projets{
+    display: flex;
+    height: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0em;
+}
+
+.exp p {
+    margin-top: 0.6em;
+}
+
+.exp ul, .projet ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.exp li, .projet li {
+    background-color: rgb(21, 44, 68);
+    color: rgb(7, 251, 226);
+    border-radius: 40px;
+    padding: 0.2em 0.6em 0.2em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.exp .first-techno, .projet .first-techno {
+    margin-left: 0; 
+}
+
+.img-projets {
+
+    align-self: center;
+   
+    height: 115px;
+    min-width: 30%;
+    aspect-ratio: 1/1;
+    background-image: url("/img/Miniature-site-internet-Ozeobois-Laetitia-Digard-1.png");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#projetDeux {
+    background-image: url("/img/telephoneProjet.jpeg");
+}
+
+.projet {
+    
+    padding-left: 2em;
+    
+}
+
+.experience {
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+@media (min-width: 768px) 
+  and (max-width: 1024px) 
+   {
+    /*Enlever les bâtons vu qu'on ne les voit pas trop*/
+    .fixed {
+        position: relative;
+        padding-left: 12%;
+        padding-right: 12%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .fixed .text-debordment {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    .fixed ul {
+        margin-top: 0;
+    }
+
+    .baton {
+        width: 24px;
+    }
+    
+    .mobile {
+        margin-left: 0;
+        padding-left: 7%;
+        width: 100%;
+    }
+}
