@@ -1,6 +1,3 @@
-
-
-
 body {
     width: 100%;
     height: 100%;
@@ -49,6 +46,10 @@ h2 {
 
 .text-debordment {
     width: 75%;
+}
+
+.text-debordment ul {
+    font-size: 16px;
 }
 
 .fixed ul {
@@ -118,9 +119,14 @@ h2 {
 
 .projets{
     display: flex;
+    flex-direction: column;
     height: 100%;
     padding: 1em;
     margin-bottom: 2em;
+}
+
+.projet {
+    margin-bottom: 1.6em;
 }
 
 h3 {
@@ -159,9 +165,7 @@ h4 {
 }
 
 .img-projets {
-    align-self: center;
-    height: 115px;
-    min-width: 30%;
+    width: 100%;
     aspect-ratio: 1/1;
     background-image: url("img/Miniature-site-internet-Ozeobois-Laetitia-Digard-1.png");
     background-origin: border-box;
@@ -170,12 +174,30 @@ h4 {
     background-position: center;
 }
 
+.imgs-projets {
+    width: 20%;
+}
+
 #projetDeux {
     background-image: url("img/telephoneProjet.jpeg");
 }
+#projetTrois {
+    background-image: url("img/arcade.jpeg");
+}
+
+#projetUn {
+    background-image: url("img/idealshop.jpeg");
+}
+
 
 .projet {
-    padding-left: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-projet {
+    width: 80%;
+    padding-left: 3em;
 }
 
 #lien {
