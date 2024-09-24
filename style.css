@@ -200,10 +200,14 @@ h4 {
     padding-left: 3em;
 }
 
-#lien {
+.lien {
     margin-bottom: 10px;
     text-decoration: none;
     color: aqua;
+}
+
+.margin {
+    margin-bottom: 1.2em;
 }
 
 .experience {
